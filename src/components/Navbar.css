@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: black;
+    border-bottom: 1px solid #333;
+}
+
+nav h1 {
+    font-size: 20px;
+    color:  #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    color: #ccc;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+nav ul li:hover {
+    color: fff;
+}

@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    color: #aa3bff;
+}
+
+p {
+    color: #808080;
+}
+
