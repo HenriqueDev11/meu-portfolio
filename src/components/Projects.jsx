@@ -16,6 +16,13 @@ function Projects() {
             <p>Um sistema de login básico utilizando JS interno, HTML e CSS.</p>
             <span> JavaScript • HTML • CSS</span>
         </div>
+
+        <div className='card'>
+            <h3>Bot-Lembretes</h3>
+            <p>Um BOT de Lembretes feito em Python para o Discord.</p>
+            <span> Python • discord.py • Railway </span>
+        </div>
+
     </div>
         </section>
     )

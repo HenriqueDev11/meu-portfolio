@@ -18,3 +18,12 @@ p {
     color: #808080;
 }
 
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+

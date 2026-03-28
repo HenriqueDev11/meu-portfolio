@@ -37,3 +37,12 @@
     color: #aa3bff;
     font-size: 13px;
 }
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(170, 59, 255, 0.3);
+}
