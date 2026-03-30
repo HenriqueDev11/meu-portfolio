@@ -1,29 +1,120 @@
-body {
-    margin: 0;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 50px;
-    color: white;
-}
-
-h2 {
-    color: #aa3bff;
-}
-
-p {
-    color: #808080;
-}
-
 .hero {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 80px 80px 80px;
+  gap: 60px;
 }
 
+.hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #fff;
+}
+
+.highlight {
+  color: #aa3bff;
+}
+
+.hero-content h2 {
+  font-size: 20px;
+  color: #aaa;
+  font-weight: 400;
+}
+
+.hero-content p {
+  color: #888;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.hero-btn {
+  margin-top: 8px;
+  display: inline-block;
+  padding: 12px 28px;
+  border: 1px solid #aa3bff;
+  color: #aa3bff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #aa3bff;
+  color: #fff;
+}
+
+.hero-card {
+  background: rgba(170, 59, 255, 0.08);
+  border: 1px solid rgba(170, 59, 255, 0.3);
+  border-radius: 16px;
+  padding: 32px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-card h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.hero-card-location {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.hero-card hr {
+  border: none;
+  border-top: 1px solid rgba(170, 59, 255, 0.3);
+}
+
+.hero-card-desc {
+  color: #888;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.hero-card-stats {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.hero-card-stats div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.hero-card-stats strong {
+  color: #aa3bff;
+  font-size: 20px;
+}
+
+.hero-card-stats span {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.cursor {
+  animation: piscar 0.8s infinite;
+  color: #aa3bff;
+}
+
+@keyframes piscar {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}

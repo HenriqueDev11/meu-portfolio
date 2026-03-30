@@ -1,17 +1,17 @@
 import './Contact.css'
 
 function Contact() {
-    return (
-        <section id="contato" className='contact'>
-                <h1>Contato</h1>
-                <p>Entre em contato para projetos!</p>
+  return (
+    <section id="contato" className='contact'>
+      <h1>Contato</h1>
+      <p>Entre em contato para projetos!</p>
 
-            <div className='contact-links'>
-                <a href="https://github.com/henriquedev11" target="_blank">Github</a>
-                <a href="mailto:dopedroconta1@email.com" target="_blank">Entre em contato</a>
-            </div>
-        </section>
-    )
+      <div className='contact-links'>
+        <a href="https://github.com/henriquedev11" target="_blank" className="contact-btn">Github</a>
+        <div className='contact-btn'>dopedroconta1@gmail.com</div>
+      </div>
+    </section>
+  )
 }
 
 export default Contact

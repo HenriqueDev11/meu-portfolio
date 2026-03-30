@@ -1,6 +1,7 @@
 import './Skills.css'
 import { FaPython, FaJs, FaHtml5, FaCss3Alt, FaReact } from 'react-icons/fa'
 import { SiFlask } from 'react-icons/si'
+import { SiBlender } from 'react-icons/si'
 
 function Skills() {
     return (
@@ -30,7 +31,12 @@ function Skills() {
                 <div className='skill'>
                     <SiFlask size={40} />
                     <span>Flask</span>    
-                </div>            
+                </div>
+                <div className='skill'>
+                    <SiBlender size={40} />
+                    <span>Blender</span>    
+                </div>
+               
             </div> 
         </section>
     )
