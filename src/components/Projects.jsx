@@ -1,4 +1,5 @@
 import './Projects.css'
+import { FaGithub } from 'react-icons/fa'
 
 function Projects() {
     return (
@@ -9,18 +10,27 @@ function Projects() {
             <h3>Calculadora Simples</h3>
             <p>Uma calculadora feita em python utilizando utilizando Flask, HTML e CSS para interface gráfica.</p>
             <span>Python • Flask • HTML • CSS</span>
+
+            <a href='https://github.com/HenriqueDev11/calculator-flask' target='_blank' className='card-link'> <FaGithub size={16} /> Ver no GitHub
+            </a>
         </div>
 
         <div className='card'>
             <h3>Sistema de Login</h3>
             <p>Um sistema de login básico utilizando JS interno, HTML e CSS.</p>
             <span> JavaScript • HTML • CSS</span>
+
+            <a href='https://github.com/HenriqueDev11/login-system' target='_blank' className='card-link'> <FaGithub size={16} /> Ver no GitHub
+            </a>
         </div>
 
         <div className='card'>
             <h3>Bot-Lembretes</h3>
             <p>Um BOT de Lembretes feito em Python para o Discord.</p>
             <span> Python • discord.py • Railway </span>
+
+            <a href='https://github.com/HenriqueDev11/bot-lembretes' target='_blank' className='card-link'> <FaGithub size={16} /> Ver no GitHub
+            </a>
         </div>
 
     </div>

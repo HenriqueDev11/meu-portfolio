@@ -36,3 +36,9 @@
   background-color: #aa3bff;
   color: #fff;
 }
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

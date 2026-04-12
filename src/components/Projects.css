@@ -49,3 +49,19 @@
     transform: translateY(-8px);
     box-shadow: 0 10px 30px rgba(170, 59, 255, 0.3);
 }
+
+.card-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: auto;
+    width: fit-content;
+    transition: opacity 0.3s ease;
+}
+
+.card-link:hover {
+    opacity: 0.7;
+}

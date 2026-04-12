@@ -1,5 +1,6 @@
 import './Hero.css'
 import { useState, useEffect } from 'react'
+import foto from '../assets/foto.jpg'
 
 const textos = ['Olá, eu sou o Pedro!', 'Engenheiro de Software', 'Desenvolvedor FullStack']
 
@@ -31,7 +32,7 @@ function Hero() {
 
     return () => clearTimeout(timeout)
   }, [textoAtual, indexLetra, apagando, indexTexto])
-    
+
     return (
     <section className='hero'>
       <div className="hero-content">
@@ -43,6 +44,7 @@ function Hero() {
       </div>
 
       <div className="hero-card">
+        <img src={foto} alt='Pedro' className='hero-card-foto' />
         <h3>Pedro Henrique</h3>
         <p className="hero-card-location">Pará, Brasil</p>
         <hr />
